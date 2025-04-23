@@ -1,0 +1,49 @@
+/* General body styling */
+body {
+    text-align: center;
+    color: rgb(5, 11, 16);
+    
+}
+
+
+
+/* Button styling */
+.btn {
+    height: 12rem;
+    width: 12rem;
+    border: 0.625rem solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+
+/* Container for buttons */
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Color classes for each button */
+.red {
+    background: #d95980;
+}
+
+.green {
+    background: #63aac0;
+}
+
+.blue {
+    background: #819ff9;
+}
+
+.yellow {
+    background: #f99b45;
+}
+
+/* Flash effects */
+.flash {
+    background-color: #ffff; /* Light flash effect */
+}
+
+.userflash {
+    background-color: #04ed14; /* User input flash */
+}
